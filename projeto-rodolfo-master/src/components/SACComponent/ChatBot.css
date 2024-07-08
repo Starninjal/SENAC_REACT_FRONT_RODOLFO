@@ -1,0 +1,28 @@
+.floating-menu {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.floating-menu-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-message {
+    text-align: right;
+    color: blue;
+}
+
+.bot-message {
+    text-align: left;
+    color: green;
+}

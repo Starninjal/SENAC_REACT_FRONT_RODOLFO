@@ -1,0 +1,16 @@
+.name-currency {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 500px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
